@@ -1,3 +1,22 @@
+# Titus Containerd Fork
+
+* All development for the Titus fork of Containerd happens on the [titus](https://github.com/Netflix-Skunkworks/kinvolk-containerd/tree/titus) branch.
+* Titus releases are tagged with `vX.Y-titus` and pushed to this remote.
+* Incoming PRs often come from [Kinvolk](https://github.com/Netflix-Skunkworks/kinvolk-containerd/compare/titus...kinvolk:titus?expand=1)
+* Inside Netflix, look at the `titus-kubelet` which builds this repo.
+
+## Updating containerd
+
+* Make a PR from a proposed change into the `titus branch`
+* Update the tag to indicate a new release
+
+## Updating CRI
+
+* Update the CRI repo titus branch [here](https://github.com/Netflix-Skunkworks/kinvolk-containerd-cri/tree/titus#titus-containerd-cri-fork)
+* TBD
+
+----
+
 ![containerd banner](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png)
 
 [![GoDoc](https://godoc.org/github.com/containerd/containerd?status.svg)](https://godoc.org/github.com/containerd/containerd)
